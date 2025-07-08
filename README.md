@@ -21,9 +21,9 @@ Install dependencies
 npm install
 
 
-Set up environment variables
+Set up environment variables(in src/server.ts)
 PORT=5000
-DATABASE_URL=your_mongodb_connection_string
+uri=your_mongodb_connection_string
 
 Run the project
 npm run dev
