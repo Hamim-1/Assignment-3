@@ -1,52 +1,29 @@
-📚 Library Management API
-A RESTful API for managing library books and borrowing records built with Express, TypeScript, and MongoDB (Mongoose).
+# 📚 Library Management API – Setup & Live Link
 
-🚀 Features
-Add, update, delete, and retrieve books
+🌐 Live API Link
+https://assignment-3-rho-two.vercel.app/
 
-Borrow books with business logic enforcement
+## ⚙️ Tech Stack
 
-MongoDB aggregation for borrow summaries
+- Express.js, TypeScript, MongoDB (Mongoose)
 
-Genre-based filtering, sorting, and pagination
+---
 
-Schema validation, static methods, and middleware
+## 🚀 Getting Started
 
-Complete error handling with consistent response structure
+1. **Clone the repo**
 
-📦 Tech Stack
-Backend: Node.js, Express.js
+```
+git clone https://github.com/Hamim-1/Assignment-3.git
+cd Assignment-3
 
-Language: TypeScript
-
-Database: MongoDB (via Mongoose)
-
-Tools: Nodemon, dotenv
-
-🛠️ Setup Instructions
-1. 📁 Clone the repository
-bash
-Copy
-Edit
-git clone https://github.com/your-username/library-management-api.git
-cd library-management-api
-2. 📦 Install dependencies
-bash
-Copy
-Edit
+Install dependencies
 npm install
-3. ⚙️ Configure environment variables
-Create a .env file in the root directory and add the following:
 
-env
-Copy
-Edit
+
+Set up environment variables
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/libraryDB
-Replace the MongoDB URI with your connection string if needed.
+DATABASE_URL=your_mongodb_connection_string
 
-4. ▶️ Run the server in development
-bash
-Copy
-Edit
+Run the project
 npm run dev
