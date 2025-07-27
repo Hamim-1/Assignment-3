@@ -62,7 +62,7 @@ bookRoutes.get('/books/:bookId', async (req: Request, res: Response) => {
 });
 
 
-bookRoutes.patch('/books/:bookId', async (req: Request, res: Response) => {
+bookRoutes.put('/books/:bookId', async (req: Request, res: Response) => {
     const { bookId } = req.params;
     const body = req.body;
 
